@@ -56,7 +56,13 @@ def uploadImage(key, new_height=480):
 
 def aboutMe():
     
-    st.markdown(requests.get(os.getenv('ABOUT_ME','https://raw.githubusercontent.com/niranjangirhe/niranjangirhe/main/README.md')).text, unsafe_allow_html=True)
+    st.write(f'''
+    TUSHAR GAVKHARE
+    A3 -157
+    0120190374
+    CVASG 4
+    '''
+    )
 
 def annotateImg():
     st.header("Annotate Image")
